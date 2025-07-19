@@ -1,1 +1,1 @@
-# Dicas e explicações simples e metodos 
+# Dicas com explicações e metodos 
