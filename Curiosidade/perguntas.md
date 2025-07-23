@@ -128,3 +128,131 @@ O que é um backup de dados?
 **Resposta Correta:** Uma cópia exata dos dados armazenados em um sistema
 
 ---
+
+---
+
+## Perguntas e Respostas Corretas (OWASP TOP 10 - 2021) 🔒
+
+### Questão 1
+Um usuário encontra uma forma de executar e executa uma ação a qual apenas usuários administradores têm acesso por padrão. Em qual categoria de risco este cenário deve ser classificado?
+
+**Resposta Correta:** A1:2021 - Quebra de controle de acesso
+
+---
+
+### Questão 2
+Uma empresa está desenvolvendo uma nova aplicação e precisa decidir qual a melhor opção para proteger as credenciais dos usuários armazenadas pela empresa:
+
+**Resposta Correta:** Combinar as senhas com SALT e utilizar um algoritmo de HASH considerado seguro
+
+---
+
+### Questão 3
+O trecho de código a seguir contém uma vulnerabilidade que pode ser classificada como qual das categorias de risco da OWASP TOP 10 2021?
+
+*Trecho:*
+`$search_query = $GET['q'];`
+`echo '<h1> search results for: ' . $search_query . '</h1>;'`
+
+**Resposta Correta:** A3:2021 - Injeção
+
+---
+
+### Questão 4
+Que tipo de falha pode ser explorada para que um atacante execute código malicioso como sendo código de uma dependência de sua aplicação?
+
+**Resposta Correta:** A8:2021 - Falhas de integridade de software e dados
+
+---
+
+### Questão 5
+Servidores de uma empresa são invadidos e somente 3 meses depois, após uma base de dados ser exposta na dark web, o time de segurança da empresa identifica a ação dos atacantes. Qual medida das listadas abaixo poderiam, em conjunto, ter prevenido ou minimizado o cenário descrito?
+Selecione duas:
+
+**Respostas Corretas:**
+* Geração de alertas automáticos através dos logs dos servidores invadidos
+* Uso de um Intrusion Prevention System (IPS) na rede dos servidores
+
+---
+
+### Questão 6
+Qual das opções abaixo é a mais recomendada para prevenir ataques contra falhas do tipo A1 - Quebra de controle de acesso?
+
+**Resposta Correta:** Verificar a autorização de toda e qualquer transação ou requisição realizada
+
+---
+
+### Questão 7
+Que tipo de falha acontece quando uma aplicação renderiza dados de usuário como parte do código HTML enviado ao lado cliente sem validação?
+
+**Resposta Correta:** Cross-site scripting (XSS)
+
+---
+
+### Questão 8
+Qual das categorias de risco abaixo foi adicionada ou renomeada na lista de principais riscos da OWASP TOP 10 2021?
+
+**Resposta Correta:** A4:2021 - Design Inseguro
+
+---
+
+### Questão 9
+Roteadores de uma empresa permitem o acesso externo à interface de administração dos equipamentos e a senha de administrador utilizada é a senha fornecida por padrão pelo fabricante. Este é um cenário exemplo de qual categoria de risco:
+
+**Resposta Correta:** A5:2021 - Configuração de segurança incorreta
+
+---
+
+### Questão 10
+Que tipo de falha acontece quando dados fornecidos pelo usuário são enviados a um interpretador ou inseridos como parte da consulta de banco de dados, sem validação?
+
+**Resposta Correta:** Falhas da injeção
+
+---
+
+### Questão 11
+O que é uma política de segurança de aplicativos da web?
+
+**Resposta Correta:** Um conjunto de diretrizes que definem como o aplicativo da web deve ser configurado e protegido.
+
+---
+
+### Questão 12
+Qual é o principal objetivo de uma auditoria de segurança de banco de dados?
+
+**Resposta Correta:** Identificar vulnerabilidades de segurança no banco de dados.
+
+---
+
+### Questão 13
+Qual é o principal objetivo de uma política de gerenciamento de patches?
+
+**Resposta Correta:** Proteger o aplicativo da web contra vulnerabilidades conhecidas e corrigidas.
+
+---
+
+### Questão 14
+Qual das seguintes opções é uma das melhores práticas para evitar falhas criptográficas?
+
+**Resposta Correta:** Usar algoritmos de criptografia atualizados e fortes.
+
+---
+
+### Questão 15
+Qual das seguintes opções é uma das melhores práticas para evitar falhas de autenticação e identificação?
+
+**Resposta Correta:** Usar autenticação multifator.
+
+---
+
+### Questão 16
+Qual das seguintes opções é uma das melhores práticas para evitar configurações de segurança incorretas?
+
+**Resposta Correta:** Instalar todos os patches e atualizações de segurança necessários.
+
+---
+
+### Questão 19
+Qual das seguintes práticas ajuda a prevenir a vulnerabilidade de Broken Access Control?
+
+**Resposta Correta:** Utilizar sessões e cookies seguros para gerenciar o estado da autenticação
