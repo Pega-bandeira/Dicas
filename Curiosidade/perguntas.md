@@ -256,3 +256,11 @@ Qual das seguintes opções é uma das melhores práticas para evitar configura�
 Qual das seguintes práticas ajuda a prevenir a vulnerabilidade de Broken Access Control?
 
 **Resposta Correta:** Utilizar sessões e cookies seguros para gerenciar o estado da autenticação
+
+---
+
+### 20
+Um sistema de gerenciamento de pedidos online permite que usuários façam pedidos, mas não valida adequadamente se o usuário autenticado tem permissão para visualizar ou modificar os pedidos de outros usuários. Isso permite que um usuário acesse e altere informações confidenciais de outros usuários, incluindo detalhes de pagamento e endereços de entrega. Essa vulnerabilidade está relacionada a:
+
+**Resposta Correta:** 
+Insecure Direct Object References (IDOR)
