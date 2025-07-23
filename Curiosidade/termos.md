@@ -24,6 +24,44 @@ Aqui estão os termos e suas respectivas definições, organizados em ordem alfa
 * **Endpoint Security:** Proteção de dispositivos finais como desktops, laptops e dispositivos móveis contra ameaças cibernéticas.
 * **Firewall:** Sistema de segurança de rede que monitora e controla o tráfego de rede com base em regras de segurança predefinidas.
 * **HTTPS (Hypertext Transfer Protocol Secure):** Extensão do HTTP usada para comunicação segura em uma rede de computadores.
+
+# Protocolo HTTP
+
+HTTP (Hypertext Transfer Protocol) é, sem dúvida, um dos mais importantes protocolos, sendo o mais utilizado na transferência de arquivos hipertexto e seus recursos entre aplicações e clientes web.
+
+## Características do HTTP
+
+- **Baseado na troca de requisições e respostas** entre cliente e servidor.  
+- **Stateless**: não guarda estado entre as conexões; a cada requisição é estabelecida uma nova conexão com o servidor.  
+- **Camada de Aplicação** do modelo TCP/IP.  
+- **Entrega confiável de dados** entre a origem e o destino.
+
+---
+
+## Métodos HTTP
+
+Dois métodos são geralmente utilizados para um pedido e resposta entre cliente e servidor HTTP: **GET** e **POST**.
+
+### GET
+
+- Operação apenas de leitura (read-only).  
+- Utilizada, por exemplo, quando um cliente solicita uma página específica de um site.  
+- Os parâmetros de entrada são incluídos na URL da requisição.  
+- A resposta retorna na própria URL solicitada.  
+- Facilita marcações (bookmarking) e armazenamento em cache.  
+- É o método padrão para envio de formulários em HTML.
+
+### POST
+
+- Usada para **enviar** dados ao servidor (ex.: informações de clientes, upload de arquivos, envio de formulários HTML).  
+- Os parâmetros de entrada são passados **no corpo** da requisição.  
+- Não oferece facilidades de bookmarking ou cache.  
+- Não é o método padrão para envio de formulários em HTML; deve ser especificado explicitamente.  
+- Do ponto de vista de segurança, é importante atentar para o caminho pelo qual os dados de entrada chegam à aplicação web.  
+
+---
+
+
 * **IAST (Interactive Application Security Testing):** Ferramenta que combina elementos de DAST e SAST (Static Application Security Testing) para identificar vulnerabilidades em aplicativos em tempo real.
 * **IAM (Identity and Access Management):** Estrutura de políticas e tecnologias para garantir que as pessoas certas tenham acesso aos recursos tecnológicos apropriados.
 * **Incident Response:** Processo organizado para tratar e gerenciar a resposta a um incidente de segurança ou violação de dados.
