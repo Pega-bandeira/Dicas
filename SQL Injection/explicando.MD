@@ -1,8 +1,4 @@
-# Entendendo a Injeção de SQL (SQL Injection)
-
-Este `README` é um guia de estudo completo sobre uma das vulnerabilidades de segurança mais comuns e destrutivas em aplicações web: a **Injeção de SQL (SQLi)**. O objetivo aqui é educacional, para que desenvolvedores e estudantes de segurança entendam a ameaça para poderem criar sistemas mais seguros.
-
-## O que é SQL Injection? 🕵️
+# O que é SQL Injection? 🕵️
 
 Imagine que você vai a uma repartição pública e precisa preencher um formulário para pedir um documento. O formulário tem um campo: "Seu Nome". Você escreve seu nome, e o funcionário pega essa informação, vai até um arquivo e busca sua pasta.
 
