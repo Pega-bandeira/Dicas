@@ -44,6 +44,10 @@ Vamos usar **SQL Injection** para retornar informações sensíveis – **datas 
     ```
     ' OR 1=1 --
     ```
+    logando com uma conta
+    ```
+    mc.safesearch@cecyber-ctf.op' --' 
+    ```
 4. O resultado será **diferente do anterior**, o que sugere que **a SQL Injection pode ser possível.**
 
 ---
