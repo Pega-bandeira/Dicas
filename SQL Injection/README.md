@@ -40,7 +40,10 @@ Vamos usar **SQL Injection** para retornar informações sensíveis – **datas 
    ```
    '--
    ```
-
+   ou
+    ```
+    ' OR 1=1 --
+    ```
 4. O resultado será **diferente do anterior**, o que sugere que **a SQL Injection pode ser possível.**
 
 ---
