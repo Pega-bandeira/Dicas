@@ -29,3 +29,15 @@ Um ataque de XSS bem-sucedido pode levar a uma variedade de consequências negat
 * Execução de ações indesejadas em nome do usuário.
 
 A prevenção de XSS envolve práticas de programação segura, como a validação rigorosa de todas as entradas de usuário e a codificação de saídas para garantir que os dados sejam tratados como texto e não como código executável.
+
+
+
+Script basicos:
+
+```
+<iframe src="javascript:alert(`xss`)">.
+```
+ou 
+```
+
+```

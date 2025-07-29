@@ -1,1 +1,17 @@
 # Dicas com explicações e metodos 
+
+
+
+
+# Como pegar dados do cookies
+
+```
+let cookies = document.cookie;
+console.log(cookies);
+```
+
+# Como altarar:
+
+```
+document.cookie = "token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjAsInVzZXJuYW1lIjoiJyIsImVtYWlsIjoidGVzdGVAdGVzdGUuY29tIiwicGFzc3dvcmQiOiJmYTFkM2ViMDhhODc5ZGU5YTRjZDk5OTVhMWFhOTFlMSIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIxMC4yNDQuMi4yMzYiLCJwcm9maWxlSW1hZ2UiOiIvYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyNS0wNy0yOSAxNjo1Nzo1Ni43NjMgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNS0wNy0yOSAxNzoxMTozMy40ODYgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzUzODA5NTcyLCJleHAiOjE3NTM4Mjc1NzJ9";
+```
