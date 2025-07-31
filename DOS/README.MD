@@ -1,5 +1,4 @@
-Claro! O que você explorou é uma **Remote Code Execution (RCE)** via **Insecure Deserialization**, que permite executar código arbitrário no servidor.
-Mas, como o payload foi um **loop infinito**, isso se torna um **Denial of Service (DoS)**.
+# **Denial of Service (DoS)**.
 
 ---
 
