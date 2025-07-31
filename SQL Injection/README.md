@@ -48,6 +48,10 @@ Vamos usar **SQL Injection** para retornar informações sensíveis – **datas 
     ```
     mc.safesearch@cecyber-ctf.op' --' 
     ```
+    EXEMPLO EM URL :
+    ```
+    https://arena.cecyber.com/rest/products/search?q='))--
+    ```
 4. O resultado será **diferente do anterior**, o que sugere que **a SQL Injection pode ser possível.**
 
 ---
