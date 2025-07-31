@@ -1,5 +1,6 @@
 # **Denial of Service (DoS)**.
 
+Vuerabilidade de `/api-docs`  do `swegger`
 
 ## 🔥 Como funciona essa vulnerabilidade?
 
