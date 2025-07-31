@@ -1,6 +1,5 @@
 # **Denial of Service (DoS)**.
 
----
 
 ## 🔥 Como funciona essa vulnerabilidade?
 
